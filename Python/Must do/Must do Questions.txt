@@ -1,0 +1,519 @@
+Write a program to reverse an integer in Python. 
+● Example:
+○ Input: 1234
+○ Output: 4321
+
+Write a program in Python to check whether an integer is an Armstrong
+number or not.
+● Example:
+○ Input: 153
+○ Output: True
+
+Write a program in Python to check if a given number is prime or not.
+● Example:
+○ Input: 17
+○ Output: True
+
+Write a program in Python to print the Fibonacci series using an iterative
+method.
+● Example:
+○ Input: 5
+○ Output: [0, 1, 1, 2, 3]
+
+Write a program in Python to print the Fibonacci series using a recursive
+method.
+● Example:
+○ Input: 5
+○ Output: [0, 1, 1, 2, 3]
+
+Write a program in Python to check whether a number is a palindrome or not
+using an iterative method.
+● Example:
+○ Input: 121
+○ Output: True
+
+Write a program in Python to check whether a number is a palindrome or not
+using a recursive method.
+● Example:
+○ Input: 121
+○ Output: True
+
+Write a program in Python to find the greatest among three integers.
+● Example:
+○ Input: 10, 20, 30
+○ Output: 30
+
+Write a program in Python to check if a number is binary.
+● Example:
+○ Input: 1010
+○ Output: True
+
+Write a program in Python to find the sum of digits of a number using
+recursion.
+● Example:
+○ Input: 1234
+○ Output: 10
+
+Write a program in Python to swap two numbers without using a third
+variable.
+● Example:
+○ Input: a = 5, b = 10
+○ Output: a = 10, b = 5
+
+Write a program in Python to swap two numbers using a third variable.
+● Example:
+○ Input: a = 5, b = 10
+○ Output: a = 10, b = 5
+
+Write a program in Python to find prime factors of a given integer.
+● Example:
+○ Input: 28
+○ Output: [2, 7]
+
+Write a program in Python to add two integers without using arithmetic
+operators.
+● Example:
+○ Input: 5, 3
+○ Output: 8
+
+Write a program in Python to find if a given number is perfect or not.
+● Example:
+○ Input: 28
+○ Output: True
+
+Write a Python program to find the average of numbers.
+● Example:
+○ Input: [10, 20, 30]
+○ Output: 20.0
+
+Write a Python program to calculate the factorial using an iterative method.
+● Example:
+○ Input: 5
+○ Output: 120
+
+Write a Python program to calculate the factorial using recursion.
+● Example:
+○ Input: 5
+○ Output: 120
+
+Write a Python program to check if a given number is even or odd.
+● Example:
+○ Input: 4
+○ Output: Even
+
+Write a Python program to print the first n prime numbers with an
+explanation.
+● Example:
+○ Input: 5
+○ Output: [2, 3, 5, 7, 11]
+
+Write a Python program to print prime numbers in a given range.
+● Example:
+○ Input: 10 to 30
+○ Output: [11, 13, 17, 19, 23, 29]
+
+Write a Python program to find the smallest number among three.
+● Example:
+○ Input: 10, 20, 30
+○ Output: 10
+
+Write a Python program to convert a decimal number into binary.
+● Example:
+○ Input: 10
+○ Output: 1010
+
+Write a Python program to convert a decimal number to octal.
+● Example:
+○ Input: 8
+○ Output: 10
+
+Write a Python program to check if the given year is a leap year or not.
+● Example:
+○ Input: 2020
+○ Output: True
+
+Write a Python program to calculate simple interest.
+● Example:
+○ Input: Principal = 1000, Rate = 5%, Time = 2
+○ Output: 100.0
+
+Write a Python program to remove a given character from a string.
+● Example:
+○ Input: "hello", 'l'
+○ Output: "heo"
+
+Write a Python program to count occurrences of a given character in a string.
+● Example:
+○ Input: "hello", 'l'
+○ Output: 2
+
+Write a Python program to check if two strings are anagrams.
+● Example:
+○ Input: "listen", "silent"
+○ Output: True
+
+Write a Python program to check if a string is a palindrome.
+● Example:
+○ Input: "radar"
+○ Output: True
+
+Write a Python program to check if a given character is a vowel or consonant.
+● Example:
+○ Input: 'a'
+○ Output: Vowel
+
+Write a Python program to check if a given character is a digit or not.
+● Example:
+○ Input: '5'
+○ Output: True
+
+Write a Python program to replace spaces in a string with a given character.
+● Example:
+○ Input: "hello world", '-'
+○ Output: "hello-world"
+
+Write a Python program to convert lowercase characters to uppercase in a
+string.
+● Example:
+○ Input: "hello"
+○ Output: "HELLO"
+
+Write a Python program to convert lowercase vowels to uppercase in a string.
+● Example:
+○ Input: "hello"
+○ Output: "hEllO"
+
+Write a Python program to delete vowels in a given string.
+● Example:
+○ Input: "hello"
+○ Output: "hll"
+
+Write a Python program to count the occurrences of vowels and consonants in
+a string.
+● Example:
+○ Input: "hello"
+○ Output: Vowels: 2, Consonants: 3
+
+Write a Python program to print the highest frequency character in a string.
+● Example:
+○ Input: "hello"
+○ Output: 'l'
+
+Write a Python program to replace the first occurrence of a vowel with '-' in a
+string.
+● Example:
+○ Input: "hello"
+○ Output: "h-llo"
+
+Write a Python program to count alphabets, digits, and special characters in a
+string.
+● Example:
+○ Input: "Hello123!@#"
+○ Output: Alphabets: 5, Digits: 3, Special Characters: 3
+Write a Python program to separate characters in a given string.
+● Example:
+○ Input: "hello"
+○ Output: ['h', 'e', 'l', 'l', 'o']
+
+Write a Python program to remove blank spaces from a string.
+● Example:
+○ Input: " hello world "
+○ Output: "helloworld"
+
+Write a Python program to concatenate two strings using the join() method.
+● Example:
+○ Input: "Hello", "World"
+○ Output: "Hello World"
+
+Write a Python program to concatenate two strings without using the join()
+method.
+● Example:
+○ Input: "Hello", "World"
+○ Output: "HelloWorld"
+
+Write a Python program to remove repeated characters from a string.
+● Example:
+○ Input: "hello"
+○ Output: "helo"
+
+Write a Python program to calculate the sum of integers in a string.
+● Example:
+○ Input: "abc123"
+○ Output: 6
+
+Write a Python program to print all non-repeating characters in a string.
+● Example:
+○ Input: "hello"
+○ Output: 'h', 'e', 'o'
+
+Write a Python program to copy one string to another string.
+● Example:
+○ Input: "hello"
+○ Output: "hello" (copied)
+
+Write a Python program to sort characters of a string in ascending order.
+● Example:
+○ Input: "dcba"
+○ Output: "abcd"
+
+Write a Python program to sort characters of a string in descending order.
+● Example:
+○ Input: "dcba"
+○ Output: "dcba"
+
+Write a Python program to convert a binary number to decimal.
+● Example:
+○ Input: 1010
+○ Output: 10
+
+Write a Python program to find the second largest number in a list.
+● Example:
+○ Input: [1, 2, 3, 4, 5]
+○ Output: 4
+
+Write a Python program to find the intersection of two lists.
+● Example:
+○ Input: [1, 2, 3], [2, 3, 4]
+○ Output: [2, 3]
+
+Write a Python program to find the union of two sets.
+● Example:
+○ Input: {1, 2, 3}, {3, 4, 5}
+○ Output: {1, 2, 3, 4, 5}
+
+Write a Python program to calculate the length of a string without using the
+len() function.
+● Example:
+○ Input: "hello"
+○ Output: 5
+
+Write a Python program to print the first n Fibonacci numbers using
+memoization.
+● Example:
+○ Input: 5
+○ Output: [0, 1, 1, 2, 3]
+
+Write a Python program to check if a string contains only digits.
+● Example:
+○ Input: "1234"
+○ Output: True
+
+Write a Python program to find the most common element in a list.
+● Example:
+○ Input: [1, 2, 2, 3, 3, 3]
+○ Output: 3
+
+Write a Python program to find the longest word in a sentence.
+● Example:
+○ Input: "The quick brown fox"
+○ Output: "quick"
+
+Write a Python program to check if a string is a rotation of another string.
+● Example:
+○ Input: "abcd", "dabc"
+○ Output: True
+
+Write a Python program to implement a basic calculator.
+● Example:
+○ Input: 2 + 3
+○ Output: 5
+
+Write a Python program to find the minimum and maximum number in a list
+without using built-in functions.
+● Example:
+○ Input: [10, 20, 5, 30]
+○ Output: Min: 5, Max: 30
+
+Write a Python program to print a pyramid pattern of stars.
+● Example:
+○ Input: 3
+○ Output:
+*
+***
+*****
+
+
+Write a Python program to find all pairs in a list that sum up to a specific
+target.
+● Example:
+○ Input: [1, 2, 3, 4, 5], 5
+○ Output: [(1, 4), (2, 3)]
+
+Write a Python program to find the first non-repeating character in a string.
+● Example:
+○ Input: "swiss"
+○ Output: 'w'
+
+Write a Python program to calculate the area of a circle.
+● Example:
+○ Input: radius = 5
+○ Output: 78.54
+
+Write a Python program to merge two dictionaries.
+● Example:
+○ Input: {'a': 1}, {'b': 2}
+○ Output: {'a': 1, 'b': 2}
+
+Write a Python program to find the index of an element in a list.
+● Example:
+○ Input: [1, 2, 3, 4], 3
+○ Output: 2
+
+Write a Python program to create a countdown timer.
+● Example:
+○ Input: 5 (countdown from 5)
+○ Output: 4, 3, 2, 1, 0
+
+Write a Python program to generate a random password.
+● Example:
+○ Output: gY@9eR*
+
+Write a Python program to remove duplicates from a list while maintaining
+order.
+● Example:
+○ Input: [1, 2, 2, 3, 4, 4]
+○ Output: [1, 2, 3, 4]
+
+Write a Python program to check if a given string is a valid email address.
+● Example:
+○ Input: "example@domain.com"
+○ Output: True
+
+Write a Python program to calculate the power of a number using recursion.
+● Example:
+○ Input: 2, 3
+○ Output: 8
+
+Write a Python program to implement a queue using lists.
+● Example:
+○ Input: enqueue(5), enqueue(10), dequeue()
+○ Output: 5
+
+Write a Python program to implement a stack using lists.
+● Example:
+○ Input: push(5), push(10), pop()
+○ Output: 10
+
+Write a Python program to print the ASCII value of a character.
+● Example:
+○ Input: 'A'
+○ Output: 65
+
+Write a Python program to find the intersection of two arrays.
+● Example:
+○ Input: [1, 2, 3], [2, 3, 4]
+○ Output: [2, 3]
+
+Write a Python program to convert a string to a list of words.
+● Example:
+○ Input: "Hello World"
+○ Output: ['Hello', 'World']
+
+Write a Python program to implement binary search.
+● Example:
+○ Input: [1, 2, 3, 4, 5], 3
+○ Output: 2 (index of the number 3)
+
+Write a Python program to find all permutations of a string.
+● Example:
+○ Input: "abc"
+○ Output: ['abc', 'acb', 'bac', 'bca', 'cab', 'cba']
+
+Write a Python program to find the longest common prefix in a list of strings.
+● Example:
+○ Input: ["flower", "flow", "flight"]
+○ Output: "fl"
+
+Write a Python program to find the maximum product of two integers in a
+list.
+● Example:
+○ Input: [1, 2, 3, 4]
+○ Output: 12 (3 * 4)
+
+Write a Python program to rotate an array to the right by k steps.
+● Example:
+○ Input: [1, 2, 3, 4, 5], 2
+○ Output: [4, 5, 1, 2, 3]
+
+Write a Python program to implement the sieve of Eratosthenes to find all
+prime numbers up to n.
+● Example:
+○ Input: 30
+○ Output: [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]
+
+Write a Python program to implement a basic text-based Tic-Tac-Toe game.
+● Example:
+○ Input: Players take turns entering their moves.
+○ Output: Display the game board and announce the winner.
+Write a Python program to create a simple URL shortener.
+● Example:
+○ Input: "https://www.example.com"
+○ Output: Shortened URL: "http://short.ly/abcd"
+
+Write a Python program to check for balanced parentheses in an expression.
+● Example:
+○ Input: "((a + b) * (c + d))"
+○ Output: True
+
+Write a Python program to serialize and deserialize a binary tree.
+
+● Example:
+○ Input: A binary tree structure.
+○ Output: Serialized string representation of the tree.
+Write a Python program to find the nth Fibonacci number using
+memoization.
+● Example:
+○ Input: 10
+○ Output: 55
+
+Write a Python program to flatten a nested list.
+● Example:
+○ Input: [1, [2, [3, 4]], 5]
+○ Output: [1, 2, 3, 4, 5]
+
+Write a Python program to implement a simple stack with push and pop
+operations.
+● Example:
+○ Input: push(10), push(20), pop()
+○ Output: 20
+
+Write a Python program to find the frequency of each character in a string
+using a dictionary.
+● Example:
+○ Input: "hello"
+○ Output: {'h': 1, 'e': 1, 'l': 2, 'o': 1}
+
+Write a Python program to find the first repeating character in a string.
+● Example:
+○ Input: "geeksforg"
+○ Output: 'g'
+
+Write a Python program to count the number of words in a string.
+
+● Example:
+○ Input: "Hello World"
+○ Output: 2
+
+Write a Python program to check if two strings are rotations of each other.
+● Example:
+○ Input: "abcd", "cdab"
+○ Output: True
+
+Write a Python program to implement a queue using collections.deque.
+● Example:
+○ Input: enqueue(1), enqueue(2), dequeue()
+○ Output: 1
+
+Write a Python program to implement depth-first search (DFS) on a graph.
+● Example:
+○ Input: A graph represented as an adjacency list.
+○ Output: Traversal order of nodes.
+
+Write a Python program to generate all subsets of a set. - Example:
+● Input: {1, 2}
+● Output: [], [1], [2], [1, 2]
+
+
+
+
+
