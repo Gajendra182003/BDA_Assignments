@@ -1,0 +1,506 @@
+================================================================================
+                    PRACTICAL MACHINE LEARNING SYLLABUS
+================================================================================
+
+Institution : ACTS, Pune
+Program     : PGCP-BDA
+Batch       : February 2026
+Duration    : 60 Hours Theory + 80 Hours Lab + 10 Hours Self Learning
+Objective   : Practicing Machine Learning Algorithms
+
+Prerequisites
+-------------
+- Good knowledge of Python Programming
+- Good knowledge of Statistics
+
+Evaluation Method
+-----------------
+- Theory Exam  : 40% weightage
+- Lab Exam     : 40% weightage
+- Internal Exam: 20% weightage
+
+Books and Training Material
+---------------------------
+Courseware:
+- Machine Learning — Saikat Dutt, Amit Kumar Das, S. Chandramouli, Pearson
+
+Reference Book:
+- Machine Learning Using Python — Manaranjan Pradhan, U. Dinesh Kumar, Wiley
+
+Note: Session numbering follows the original syllabus.
+
+================================================================================
+SESSION 1 — MACHINE LEARNING FOUNDATIONS                                    (2T + 2L + 1SL)
+================================================================================
+
+Theory and Lab
+--------------
+- Fundamentals of Information Theory
+- Introduction to Machine Learning
+- Algorithm Types of Machine Learning
+- Probably Approximately Correct (PAC) Learning
+- Uses of Machine Learning
+- Evaluating Machine Learning Techniques
+
+Self Learning
+-------------
+- Explore how information theory underpins learning, generalization, and
+  uncertainty handling.
+- Study why machine learning is framed as a learning problem rather than a
+  programming problem.
+- Examine different learning paradigms and their suitability for real-world
+  problems.
+- Analyze why evaluation is essential before claiming a model is "good."
+
+================================================================================
+SESSION 2 — MODEL COMPLEXITY AND LEARNABILITY                               (2T + 2L + 1SL)
+================================================================================
+
+Theory and Lab
+--------------
+- Bias–Complexity Trade-off
+- Vapnik–Chervonenkis (VC) Dimension
+- Non-uniform Learnability:
+  - Structural Risk Minimization
+  - Occam's Razor
+  - No Free Lunch Theorem
+- Regularization and Stability
+
+Self Learning
+-------------
+- Study the bias–complexity trade-off as a central challenge in model design.
+- Explore VC dimension as a measure of model capacity rather than algorithm
+  strength.
+- Examine and document why no single algorithm performs best across all
+  problems.
+
+================================================================================
+SESSION 3 — MODEL SELECTION, VALIDATION, AND SCIKIT-LEARN                    (2T + 2L)
+================================================================================
+
+Theory
+------
+- Model Selection and Validation
+- Introduction to Scikit-learn
+- Performing Machine Learning Using Scikit-learn
+
+Lab
+---
+- Explore the Scikit-learn library.
+- Explore datasets online using sources such as Kaggle and the UCI Machine
+  Learning Repository.
+- Load a dataset in Google Colab.
+- Print the first five and last five values in the dataset.
+- Check the correlation between fields present in the dataset.
+
+================================================================================
+SESSIONS 4 & 5 — CLUSTERING AND DIMENSIONALITY REDUCTION                    (4T + 4L + 2SL)
+================================================================================
+
+Theory
+------
+- Clustering
+- Hierarchical Clustering and K-Means
+- Distance Measures and Data Preparation:
+  - Scaling
+  - Weighting
+- Evaluation and Profiling of Clusters
+- Clustering Case Study
+- Principal Component Analysis:
+  - PCA
+  - Kernel PCA
+- Random Projections
+
+Lab
+---
+Download the `mall_customers.csv` dataset from Kaggle and perform the following:
+
+1. Form an appropriate number of clusters based on observation.
+2. Calculate the Within-Cluster Sum of Squares (WSS) value for each cluster.
+3. Find the best value of K.
+
+Self Learning
+-------------
+- Examine and document why clustering is inherently subjective and exploratory.
+- Study how distance measures and scaling influence cluster formation.
+- Reflect on PCA and random projections as tools for representation, not only
+  compression.
+- Analyze how clustering evaluation differs from supervised learning
+  evaluation.
+
+================================================================================
+SESSIONS 6 & 7 — EVALUATION METRICS AND ENSEMBLE MODELS                     (4T + 6L)
+================================================================================
+
+Theory
+------
+- Classification Evaluation Metrics:
+  - Accuracy
+  - F1-score
+  - ROC AUC
+  - Log Loss
+- Regression Evaluation Metrics:
+  - MAE
+  - RMSE
+  - R² Score
+- Decision Trees
+- Classification and Regression Trees
+- Random Forest
+- Gradient Boosting Machines
+- Model Stacking
+- CatBoost
+- LightGBM
+- XGBoost
+
+Lab
+---
+- Implement Random Forest, SVM, and Logistic Regression classification
+  algorithms.
+- Generate and compare the classification report and F1-score for all three
+  algorithms.
+
+================================================================================
+SESSIONS 8 & 9 — PROBABILISTIC MODELS, LDA, AND KNN                         (4T + 4L)
+================================================================================
+
+Theory
+------
+- Bayesian Analysis and Naive Bayes Classifier
+- Assigning Probabilities and Calculating Results
+- Linear Discriminant Analysis (LDA)
+- K-Nearest Neighbors (KNN) Algorithm
+
+Lab
+---
+- Implement the K-Nearest Neighbors algorithm.
+
+================================================================================
+SESSIONS 10 & 11 — REGRESSION TECHNIQUES                                    (4T + 6L + 1SL)
+================================================================================
+
+Theory
+------
+- Linear Regression
+- Logistic Regression
+- Polynomial Regression
+- Ridge Regression
+- Lasso Regression
+- Elastic Net Regression
+
+Lab
+---
+- Download a dataset.
+- Perform Linear, Ridge, Lasso, and Polynomial Regression.
+- Evaluate the models using MAE, MSE, RMSE, and F1-score where applicable.
+- Explain the results with a conclusion.
+
+Self Learning
+-------------
+- Study regression as a modeling tool rather than a curve-fitting exercise.
+- Reflect on why regularization is essential in high-dimensional data.
+- Compare different regression techniques from a bias–variance perspective.
+
+================================================================================
+SESSION 12 — SUPPORT VECTOR MACHINES                                        (2T + 4L + 1SL)
+================================================================================
+
+Theory
+------
+- Support Vector Machines
+- Basic Classification Principle of SVM
+- Linear and Nonlinear Classification:
+  - Polynomial Kernel
+  - Radial Basis Function Kernel
+
+Lab
+---
+- Download an Air Quality dataset from Kaggle.
+- Predict the Air Quality Index using Linear Regression.
+- Classify air quality into five categories using SVM:
+  - Very Good
+  - Good
+  - Moderate
+  - Poor
+  - Worst
+
+Self Learning
+-------------
+- Visualize margin maximization as a geometric learning principle.
+- Study kernel methods as implicit feature transformation techniques.
+- Examine and document trade-offs between linear and nonlinear decision
+  boundaries.
+
+================================================================================
+SESSIONS 13 & 14 — TIME SERIES ANALYSIS                                     (4T + 4L)
+================================================================================
+
+Theory
+------
+- Moving Average
+- Exponential Smoothing
+- Holt's Trend Method
+- Holt–Winters Method
+- Methods for Seasonality
+- Autocorrelation:
+  - ACF
+  - PACF
+- Auto-regression and Auto-regressive Models
+- Moving Average Models
+- ARMA and ARIMA
+
+Lab
+---
+- Explain autocorrelation and its purpose.
+- Download a dataset and calculate autocorrelation.
+- Explain ARMA and ARIMA models, their purpose in time series analysis, and
+  the differences between them.
+
+================================================================================
+SESSIONS 15 & 16 — RECOMMENDATION SYSTEMS                                   (2T + 4L)
+================================================================================
+
+Theory and Lab
+--------------
+- Recommendation Systems
+- Data Collection and Storage
+- Data Filtering
+- Collaborative Filtering
+- Factorization Methods
+- Evaluation Metrics:
+  - Recall
+  - Precision
+  - RMSE
+  - Mean Reciprocal Rank (MRR)
+  - MAP@K
+  - NDCG
+
+================================================================================
+SESSIONS 17, 18 & 19 — INTRODUCTION TO DEEP LEARNING                        (4T + 4L)
+================================================================================
+
+Theory
+------
+- Introduction to Deep Learning
+- Introduction to TensorFlow and Keras
+
+Lab
+---
+- Explore the TensorFlow and Keras libraries.
+
+================================================================================
+SESSIONS 18 & 19 — NEURAL NETWORKS AND AUTOENCODERS                         (4T + 6L + 1SL)
+================================================================================
+
+Theory
+------
+- Introduction to Autoencoders
+- Neural Networks and Their Applications
+- Single-Layer Neural Network
+- Activation Functions:
+  - Sigmoid
+  - Hyperbolic Tangent (Tanh)
+  - ReLU
+- Overview of Backpropagation of Errors
+
+Lab
+---
+- Implement different activation functions on datasets in a Jupyter Notebook.
+
+Self Learning
+-------------
+- Explore why representation learning is central to modern deep learning and
+  how autoencoders differ from predictive models.
+- Study the role of single-layer neural networks as building blocks for deeper
+  architectures.
+- Examine and document why nonlinear activation functions are essential for
+  learning complex patterns.
+- Analyze backpropagation as an error-correction mechanism rather than only a
+  mathematical procedure.
+
+================================================================================
+SESSION 20 — DEEP LEARNING ESSENTIALS                                       (2T + 2L + 2SL)
+================================================================================
+
+Theory and Lab
+--------------
+- Early Stopping for Preventing Overfitting
+- Dropout
+- L1 and L2 Regularization
+- Updating Weights with a Single Training Set Element
+
+Self Learning
+-------------
+- Examine and document why deep neural networks tend to overfit when model
+  capacity exceeds data complexity.
+- Study regularization techniques as learning constraints rather than
+  post-training fixes.
+- Research early stopping as a practical balance between underfitting and
+  overfitting.
+- Analyze weight updates using single training examples to understand
+  stochastic learning behavior.
+
+================================================================================
+SESSIONS 21 & 22 — NEURAL NETWORK TRAINING AND OPTIMIZERS                   (4T + 6L + 1SL)
+================================================================================
+
+Theory
+------
+- Batch Training
+- Mini-batch Training
+- Stochastic Gradient Descent
+- Training Methods for Neural Networks — High-Level Overview:
+  - Classic Backpropagation
+  - Momentum Backpropagation
+  - ADAM
+
+Lab
+---
+- Implement different optimizers.
+- Implement and explore gradient-related problems.
+
+Self Learning
+-------------
+- Compare batch, mini-batch, and stochastic training from convergence and
+  efficiency perspectives.
+- Study optimization algorithms as navigation strategies on an error surface.
+- Reflect on why adaptive optimizers such as ADAM dominate modern deep learning
+  practice.
+- Analyze trade-offs between faster convergence and long-term generalization.
+
+================================================================================
+SESSIONS 23 & 24 — CONVOLUTIONAL NEURAL NETWORKS USING PYTORCH              (4T + 6L)
+================================================================================
+
+Theory
+------
+- Introduction to the PyTorch Framework
+- PyTorch vs TensorFlow
+- Convolutional Concept
+- Transfer Learning and the Inception Network
+- Data Augmentation
+- Object Detection
+- YOLO Algorithm — High-Level Overview
+
+Lab
+---
+- Install PyTorch and explore the PyTorch documentation.
+- Implement the YOLO algorithm.
+
+Self Learning
+-------------
+- Research and document why PyTorch is preferred for deep learning
+  experimentation and research-oriented workflows.
+- Study convolution as a representation-learning mechanism rather than an
+  image-processing trick.
+- Examine transfer learning as a strategy for leveraging prior knowledge in
+  data-scarce environments.
+- Analyze why object detection is more complex than image classification and
+  how YOLO reframes detection as a single-step prediction problem.
+
+================================================================================
+SESSIONS 25 & 26 — RECURRENT NEURAL NETWORKS USING PYTORCH                  (4T + 6L)
+================================================================================
+
+Theory
+------
+- Recurrent Neural Network (RNN) Concept
+- Types of RNNs
+- Vanishing Gradients in RNNs
+- Gated Recurrent Unit (GRU) — High-Level Overview
+- Long Short-Term Memory (LSTM) — High-Level Overview
+
+Lab
+---
+- Implement an RNN using PyTorch.
+- Implement LSTM and GRU.
+
+Case Study
+----------
+- Time Series Example Using LSTM
+
+Self Learning
+-------------
+- Research why sequence data cannot be modeled effectively using feedforward
+  architectures.
+- Study temporal dependency and how information flows across time steps in
+  RNNs.
+- Analyze the vanishing gradient problem as a limitation of naive recurrence.
+- Examine how gating mechanisms in LSTM and GRU address long-term dependency
+  learning.
+
+================================================================================
+SESSION 27 — GENERATIVE AI: INTRODUCTION TO TRANSFORMERS                    (2T + 4L)
+================================================================================
+
+Theory
+------
+- Transformers and Their Importance
+- A Brief History of NLP and the Rise of Transformers, Including the Attention
+  Timeline
+- Introduction to BERT:
+  - Bidirectional Encoder Representations from Transformers
+  - Pre-training Objectives of BERT and Their Impact on NLP Tasks
+  - Fine-tuning BERT for Applications Such as Sentiment Analysis and Question
+    Answering
+- Understanding and Handling Text Data:
+  - Tokenization
+  - Stemming
+  - Lemmatization
+  - Representing Text Data for Machine Learning Models
+- Applications of Transformers Across Domains:
+  - Computer Vision
+  - Speech Recognition
+
+Hands-on Activity
+-----------------
+- Pre-process text data and fine-tune a pre-trained model for a specific task.
+
+Lab
+---
+- Explore a pre-trained transformer model, for example using Google Colab.
+
+================================================================================
+SESSION 28 — ENCODER–DECODER ARCHITECTURE AND ATTENTION                    (2T + 2L)
+================================================================================
+
+Theory and Lab
+--------------
+- Core Concepts of AI Architectures
+- Understanding the Encoder–Decoder Architecture:
+  - Role of Encoders in Processing Input Sequences
+  - Role of Decoders in Generating Output Sequences
+  - Encoder–Decoder Models for Machine Translation and Text Summarization
+- Attention Mechanisms:
+  - Self-Attention
+  - Masked Attention
+  - How Attention Helps Models Focus on Relevant Parts of the Input
+- Hands-on Activity: Implement a Simple Attention Mechanism
+
+================================================================================
+SESSIONS 29 & 30 — LARGE LANGUAGE MODELS AND ADVANCED APPLICATIONS         (4T + 6L)
+================================================================================
+
+Theory
+------
+- Advanced Concepts and Applications
+- Introduction to Large Language Models (LLMs):
+  - Capabilities and Limitations of LLMs
+  - Responsible Development and Use of LLMs
+- Reward Models and Alignment Strategies
+- Ensuring Alignment Between LLM Goals and Human Values
+- Techniques for Mitigating Bias and Promoting Safety
+- Practical Case Studies:
+  - Chatbots
+  - Text Generation
+  - Code Completion
+- Deployment Considerations for LLMs:
+  - Infrastructure Requirements and Challenges
+  - Strategies for Efficient Deployment in Production Environments
+
+Lab
+---
+- Explore an LLM API or build a simple application using a pre-trained model.
+
+================================================================================
+END OF SYLLABUS
+================================================================================
